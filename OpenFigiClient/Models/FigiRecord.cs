@@ -12,7 +12,7 @@ namespace Models
         public string Id { get; set; }
         [DataMember(Name = "securityType", EmitDefaultValue = false, IsRequired = false)]
         public SecurityTypeOne SecurityTypeOne { get; set; }
-        [DataMember(Name = "marketSector, EmitDefaultValue = false, IsRequired = false")]
+        [DataMember(Name = "marketSector", EmitDefaultValue = false, IsRequired = false)]
         public MarketSectorDescription MarketSectorDescription { get; set; }
         [DataMember(Name = "exchCode", EmitDefaultValue = false, IsRequired = false)]
         public ExchangeCode ExchangeCode { get; set; }

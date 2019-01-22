@@ -39,10 +39,10 @@ namespace Models
         [JsonConverter(typeof(RangeConverter<decimal?>))]
         public Range<decimal?> Coupon { get; set; }
         [DataMember(Name = "expiration", EmitDefaultValue = false, IsRequired = false)]
-        [JsonConverter(typeof(RangeConverter<decimal?>))]
+        [JsonConverter(typeof(RangeConverter<DateTime?>))]
         public Range<DateTime?> Expiration { get; set; }
         [DataMember(Name = "maturity", EmitDefaultValue = false, IsRequired = false)]
-        [JsonConverter(typeof(RangeConverter<decimal?>))]
+        [JsonConverter(typeof(RangeConverter<DateTime?>))]
         public Range<DateTime?> Maturity { get; set; }
     }
 }

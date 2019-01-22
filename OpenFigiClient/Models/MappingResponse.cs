@@ -5,12 +5,12 @@ using System.Text;
 
 namespace Models
 {
-    [DataContract(Namespace = "")]
-    public class MappingResponse
+    [DataContract(Namespace="")]
+    public class MappingResponse : List<MappingJobResult>
     {
-        [DataMember(Name = "error")]
-        public string Error { get; set; }
-        [DataMember(Name = "data")]
-        public List<FigiRecord> Records { get; set; }
+        public MappingResponse() : base()
+        {
+        
+        }
     }
 }
