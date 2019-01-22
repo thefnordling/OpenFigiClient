@@ -1,6 +1,6 @@
 ﻿# Open FIGI Client #
 
-The Open FIGI Client is a .Net Standard (2.0) REST library for querying the OpenFIGI database.  It has not been published to Nuget, so if you want to use it you should just clone the repo and incorporate the code directly.  I'll work on the nugets next week.
+The Open FIGI Client is a .Net Standard (2.0) REST library for querying the OpenFIGI database.  It has not been published to Nuget, so if you want to use it you should just clone the repo and incorporate the code directly.  Nugets will come later.  
 
 ```
 var request = new MappingRequest();
@@ -41,5 +41,5 @@ using (var p = new MappingProvider(apiKey))
 }
 ```
 
-![](file:///C:\code\OpenFigiClient\output.png)
+![](.\output.png)
 
