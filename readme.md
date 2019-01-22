@@ -41,5 +41,5 @@ using (var p = new MappingProvider(apiKey))
 }
 ```
 
-![](.\output.png)
+![](./output.png)
 
