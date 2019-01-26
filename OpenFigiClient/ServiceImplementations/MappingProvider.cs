@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using Models;
 using System.Net.Http;
 using System.Net;
 using Newtonsoft.Json;
@@ -11,7 +10,7 @@ using System.Reflection;
 using System.ComponentModel;
 using System.Runtime.Serialization;
 
-namespace Services
+namespace OpenFigiClient
 {
     public class MappingProvider : IMappingProvider, IDisposable
     {

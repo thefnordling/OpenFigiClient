@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Models
+namespace OpenFigiClient
 {
     [DataContract(Namespace ="")]
     public enum IdType

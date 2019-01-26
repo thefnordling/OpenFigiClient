@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace Models
+namespace OpenFigiClient
 {
     [DataContract(Namespace="")]
     public class MappingResponse : List<MappingJobResult>

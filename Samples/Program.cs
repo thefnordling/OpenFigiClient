@@ -1,7 +1,4 @@
-﻿using Models;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
-using Services;
+﻿using OpenFigiClient;
 using System;
 using System.Threading.Tasks;
 using System.Linq;

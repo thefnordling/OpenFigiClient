@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Models
+namespace OpenFigiClient
 {
     public class Range<T> 
     {

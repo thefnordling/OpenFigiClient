@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace Models
+namespace OpenFigiClient
 {
     [DataContract(Name = "")]
     public class MappingJob

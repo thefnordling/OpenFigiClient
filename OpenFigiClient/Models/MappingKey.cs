@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace Models
+namespace OpenFigiClient
 {
     [DataContract(Namespace = "")]
     public enum MappingKey
