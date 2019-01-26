@@ -3,6 +3,16 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>latest</LangVersion>
+    <Authors>thefnordling</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>The Open FIGI Client is a .Net Standard (2.0) REST library for querying the OpenFIGI database.</Description>
+    <RepositoryUrl>https://github.com/thefnordling/OpenFigiClient</RepositoryUrl>
+    <PackageTags>OpenFIGI FIGI thefnordling</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/thefnordling/OpenFigiClient</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/thefnordling/OpenFigiClient/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicense>https://github.com/thefnordling/OpenFigiClient/blob/master/LICENSE</PackageLicense>
+    <Company>thefnordling</Company>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
