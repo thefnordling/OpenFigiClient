@@ -11,13 +11,13 @@ namespace Models
         [DataMember(Name = "figi", IsRequired = false, EmitDefaultValue = false)]
         public string Id { get; set; }
         [DataMember(Name = "securityType", EmitDefaultValue = false, IsRequired = false)]
-        public SecurityTypeOne SecurityTypeOne { get; set; }
+        public string SecurityTypeOne { get; set; }
         [DataMember(Name = "marketSector", EmitDefaultValue = false, IsRequired = false)]
-        public MarketSectorDescription MarketSectorDescription { get; set; }
+        public string MarketSectorDescription { get; set; }
         [DataMember(Name = "exchCode", EmitDefaultValue = false, IsRequired = false)]
-        public ExchangeCode ExchangeCode { get; set; }
+        public string ExchangeCode { get; set; }
         [DataMember(Name = "securityType2", EmitDefaultValue = false, IsRequired = false)]
-        public SecurityTypeTwo SecurityTypeTwo { get; set; }
+        public string SecurityTypeTwo { get; set; }
         [DataMember(Name ="ticker", EmitDefaultValue = false, IsRequired = false)]
         public string Ticker { get; set; }
         [DataMember(Name = "name", EmitDefaultValue = false, IsRequired = false)]

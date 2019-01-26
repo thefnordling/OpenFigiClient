@@ -9,5 +9,6 @@ namespace Services
     interface IMappingProvider
     {
         Task<MappingResponse> RunMappingJobsAsync(MappingRequest request);
+        Task<MappingKeyLookupResults> LookupMappingKeyValuesAsync(MappingKey key);
     }
 }

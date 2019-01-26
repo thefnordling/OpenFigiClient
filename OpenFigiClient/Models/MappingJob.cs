@@ -14,17 +14,17 @@ namespace Models
         [DataMember(Name = "idValue", EmitDefaultValue = false, IsRequired = false)]
         public string Id { get; set; }
         [DataMember(Name = "exchCode", EmitDefaultValue = false, IsRequired = false)]
-        public ExchangeCode ExchangeCode { get; set; }
+        public string ExchangeCode { get; set; }
         [DataMember(Name = "micCode", EmitDefaultValue = false, IsRequired = false)]
-        public Mic Mic { get; set; }
+        public string Mic { get; set; }
         [DataMember(Name = "currency", EmitDefaultValue = false, IsRequired = false)]
-        public Currency Currency { get; set; }
+        public string Currency { get; set; }
         [DataMember(Name = "marketSecDes", EmitDefaultValue = false, IsRequired = false)]
-        public MarketSectorDescription MarketSectorDescription { get; set; }
+        public string MarketSectorDescription { get; set; }
         [DataMember(Name = "securityType", EmitDefaultValue = false, IsRequired = false)]
-        public SecurityTypeOne SecurityTypeOne { get; set; }
+        public string SecurityTypeOne { get; set; }
         [DataMember(Name = "securityType2", EmitDefaultValue = false, IsRequired = false)]
-        public SecurityTypeTwo SecurityTypeTwo { get; set; }
+        public string SecurityTypeTwo { get; set; }
         [DataMember(Name = "includeUnlistedEquities", EmitDefaultValue = false, IsRequired = false)]
         public bool IncludeUnlistedEquities { get; set; }
         [DataMember(Name = "optionType", EmitDefaultValue = false, IsRequired = false)]
